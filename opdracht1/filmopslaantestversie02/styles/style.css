@@ -1,0 +1,586 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* JOOP AKERBOOM */
+
+/* ALGEMENE STUFF */
+
+@font-face {
+    font-family: "Egon Sans Regular";
+    src: url(../fonts/EgonSans.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Italic";
+    src: url(../fonts/EgonSans-Italic.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Black";
+    src: url(../fonts/EgonSansBlack.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Black Italic";
+    src: url(../fonts/EgonSansBk-Italic.otf);
+}
+
+html {
+/*    background-color: #EDEDED;*/
+}
+
+body {
+    padding-top: 7vh;
+}
+
+h1, h2, p, img {
+    user-select: none;
+}
+
+h1 {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: "Egon Sans Regular";
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+li {
+    font-family: "Egon Sans Regular";
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 7vh;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    width: 100vw;  
+    background-color: white;
+    position: fixed;
+/*    opacity: 0.8;*/
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*ANIMATION LIST NUMBER IN HEADER*/
+
+@keyframes addedtolistheaderanimation {
+    0%   {left: 60%; opacity: 0;}
+    100%  {left: 52%; opacity: 1;}
+}
+
+@keyframes removedfromlistheaderanimation {
+    0%   {transform: scale(1); opacity: 1;  }
+    100%  {transform: scale(0); opacity: 0;  }
+}
+
+header nav>img {
+    position: absolute;
+    width: 1.8rem;
+    left: 52%;
+    z-index: 30;
+    opacity: 0;
+}
+
+.addedtolistanimation {
+    animation-name: addedtolistheaderanimation;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.removedfromlistanimation {
+    animation-name: removedfromlistheaderanimation;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+header li {
+    height: 1.5rem;;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+header li:nth-of-type(1) {
+    background-image: url(../images/account.svg);
+    background-position: left; 
+}
+
+header li:nth-of-type(2) {
+    background-position: center; 
+    background-image: url(../images/Watchlist.svg);
+}
+
+header li:nth-of-type(3) {
+    background-position: right; 
+    background-image: url(../images/search.svg);
+}
+
+header a {
+    color: transparent;
+}
+
+main>section {
+    position: relative;
+/*    overflow: hidden;*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 31vh;
+}
+
+main>section::after {
+    content: "";
+    z-index: 15;
+    position: absolute;
+    top: 0rem;
+    background: linear-gradient(#344551, transparent);
+    width: 100%;
+    height: 35%;
+}
+
+section>div:nth-of-type(1) {
+    z-index: 30;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    display: none;
+}
+
+
+section>div:nth-of-type(1) p {
+    margin-top: 4rem;
+}
+
+section div:nth-of-type(2)>div {
+    position: absolute;
+/*    z-index: 10;*/
+    bottom: 2rem;
+    padding-left: 2rem;
+/*    width: 100%; */
+}
+
+/*BLUR EFFECT OVER MOVIE SECTION*/
+
+@keyframes addedtolistbluranimation {
+    0%   {filter: blur(0rem);}
+    25%  {filter: blur(0.8rem);}
+    50%  { filter: blur(0.8rem);}
+    100% {filter: blur(0rem);}
+}
+
+@keyframes addedtolistconfirmanimation {
+    0%   {opacity: 0; left: -5rem;}
+    25%  {opacity: 1; left: 0rem;}
+    50%  {opacity: 1; left: 0rem;}
+    100% {opacity: 0;left: -5rem;}
+}
+
+section:nth-of-type(1) div:nth-of-type(2).bluranimation {
+    animation-name: addedtolistbluranimation;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+section:nth-of-type(1)>div:nth-of-type(1).confirmanimation {
+    animation-name: addedtolistconfirmanimation;
+    animation-delay: 0.5s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+    display: block;
+    opacity: 0;
+}
+
+section img:nth-of-type(1) {
+/*    transform: scale(1.2);*/
+    width: 100%;
+}
+
+@keyframes draggablebaranimation {
+    0%   {opacity: 0; right: 0;}
+    100% {opacity: 1; right: 0.5rem;}
+}
+
+section img:nth-of-type(2) {
+    position: absolute;
+    top: 50%;                         
+    transform: translateY(-50%);
+    right: 0rem;
+    opacity: 0;
+    height: 3rem;
+}
+
+main.yourwatchlist section img:nth-of-type(2) {
+    opacity: 1;
+    right: 0.5rem;
+}
+
+.draggablebaranimation {
+    animation-name: draggablebaranimation;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+section div:nth-of-type(1)>h2, section div:nth-of-type(2)>div>h2 {
+    padding-right: 2rem;
+}
+
+section:nth-of-type(1)>div:nth-of-type(1)>h2 {
+    background-image: url(../images/addedcheck.svg);
+    background-repeat: no-repeat;
+    background-position: 6.5rem 2.7rem;
+    background-size: 2rem;
+}
+
+section div:nth-of-type(1)>h2, section div:nth-of-type(1)>p, section div:nth-of-type(2)>div>h2, section div:nth-of-type(2)>div>p {
+    color: white;
+} 
+
+section>div:nth-of-type(2) button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-image: url(../images/addtolist.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: transparent;
+    border: none;
+    z-index: 40;
+}
+
+
+section>div:nth-of-type(2) button#removefromlistbutton {
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    background-image: url(../images/addedtolist.svg);
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    z-index: 40;
+    transition-delay: 2s;
+    display: none;
+}
+
+section>div:nth-of-type(2)>button:nth-of-type(3), main.yourwatchlist section>div:nth-of-type(2)>button:nth-of-type(2)  {
+    position: absolute;
+    top: auto;
+    bottom: 1rem;
+    background-image: url(../images/moreinfo.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: transparent;
+    border: none;
+    z-index: 40;
+}
+
+button:focus {
+    outline:0;
+}
+
+section>section:last-of-type {
+    position: absolute;
+    width: 6rem;
+    height: 100%;
+    top: 0;
+    left: 100vw;
+    background-color: #F44646;
+    z-index: 40;
+    display: none;
+}
+
+main.yourwatchlist section>section:last-of-type{
+    display: block;
+}
+
+section>section:last-of-type h3, section>section:last-of-type button, main.yourwatchlist section>section:last-of-type h3, main.yourwatchlist section>section:last-of-type button {
+    display: inline-block;
+    position: absolute;
+    margin: 0;        
+    top: 50%;                         
+    transform: translateY(-50%);
+}
+
+section>section:last-of-type button, main.yourwatchlist section>section:last-of-type button {
+    background: url(../images/removefromlist.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: 2rem;
+    background-position: left 45%;
+    height: 100%;
+    width: 4rem;
+    border: none;
+    left: 2rem;
+    color: transparent;
+    font-size: 0rem;
+/*
+    width: 80%;
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    padding-left: 3rem;
+*/
+}
+
+section>section:last-of-type h3, main.yourwatchlist section>section:last-of-type h3 {
+    display: none;
+/*
+    color: white;
+    left: 50%;
+    transform: translate(-50%, 0);
+*/
+}
+
+/*EXTRA INFO OVERLAY */
+
+@keyframes extrainfoanimation {
+    0%   {height: 35%;}
+    100% {height: 200%;}
+}
+
+@keyframes extrainfocontentanimation {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*
+@keyframes extrainfotouchedanimation {
+    0%   {height: 200%; opacity: 1;}
+    100% {height: 35%; opacity: 0;}
+}
+*/
+
+section>div:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 35%;
+    z-index: 20;
+    display: none;
+    background: linear-gradient(#344551 50%, transparent); 
+}
+
+.extrainfoanimation {
+    animation-name: extrainfoanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;  
+}
+
+.extrainfocontentanimation {
+    animation-name: extrainfocontentanimation;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;  
+}
+
+/*
+.extrainfotouchedanimation {
+    animation-name: extrainfotouchedanimation;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; 
+}
+*/
+
+section>div:nth-of-type(3)>div {
+    opacity: 0;
+}
+
+section>div:nth-of-type(3)>div p {
+    color: white;
+}
+
+section>div:nth-of-type(3)>div>p:nth-of-type(1), section>div:nth-of-type(3)>div>p:nth-of-type(3) {
+    padding-left: 2rem;
+}
+
+section>div:nth-of-type(3)>div p:nth-of-type(1), section>div:nth-of-type(3)>div p:nth-of-type(2), section>div:nth-of-type(3)>div ul, section>div:nth-of-type(3)>div ul>li {
+    display: inline-block;
+    font-family: "Egon Sans Black"; 
+    padding-top: 0.2rem;
+}
+
+section>div:nth-of-type(3)>div ul {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+section>div:nth-of-type(3)>div ul>li>img {
+    width: 1rem;
+}
+
+section>div:nth-of-type(3)>div>p:nth-of-type(3) {
+    text-transform: none;
+    padding-right: 4rem;
+    padding-top: 0.2rem;
+} 
+
+section>div:nth-of-type(3)>div>img {
+    display: block;
+    width: 9rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transform: scale(1);
+}
+
+header li:nth-of-type(2).activewatchlist {
+    background-image: url(../images/Watchlistactive.svg);
+}
+
+main.yourwatchlist section:nth-of-type(1)>div, main.yourwatchlist section:last-of-type>div {
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 2rem;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+main.yourwatchlist section:nth-of-type(1)>div h1, main.yourwatchlist section:nth-of-type(1)>div p, main.yourwatchlist section:last-of-type>div h1, main.yourwatchlist section:last-of-type>div a {
+    color: #344551;
+}
+
+main.yourwatchlist section:nth-of-type(1)>div h1 {
+    background-image: url(../images/Watchlist.svg);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: 9rem 0.4rem;
+}
+
+main.yourwatchlist section:last-of-type>div h1 {
+    background-image: url(../images/addblue.svg);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    background-position: 0rem 0rem;
+}
+
+main.yourwatchlist section:nth-of-type(1)>div p, main.yourwatchlist section:last-of-type>div p {
+   margin-top: 0rem; 
+    font-size: 1.5rem;
+}
+
+
+main.yourwatchlist section:nth-of-type(1)::after, main.yourwatchlist section:last-of-type::after {
+    content: "";
+    background: none;
+    width: 0;
+    height: 0;
+}
+
+main.yourwatchlist section button:nth-of-type(1) {
+    position: absolute;
+    right: 0.5rem;
+    top: 1.5rem;
+    background-image: url(../images/addedtolist.svg);
+    font-size: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    z-index: 20;
+    transition-delay: 2s;
+}
+
+/*REMOVE FROM WATCHLIST*/
+
+@keyframes removefromlistanimation {
+    0%   {opacity: 1; margin-top: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0;}
+    100%  {opacity: 0; margin-top: -31vh;}
+}
+
+main.yourwatchlist section:nth-of-type(2).removefromlistanimation {
+    animation-name: removefromlistanimation;
+    animation-delay: 0.5s;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
