@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* JOOP AKERBOOM */
+
+/* ALGEMENE STUFF */
+
+@font-face {
+    font-family: "Egon Sans Regular";
+    src: url(../fonts/EgonSans.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Italic";
+    src: url(../fonts/EgonSans-Italic.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Black";
+    src: url(../fonts/EgonSansBlack.otf);
+}
+
+@font-face {
+    font-family: "Egon Sans Black Italic";
+    src: url(../fonts/EgonSansBk-Italic.otf);
+}
+
+html {
+/*    background-color: #EDEDED;*/
+}
+
+body {
+    padding-top: 7vh;
+}
+
+h1 {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+button {
+    font-family: "Egon Sans Black";
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+p {
+    font-family: "Egon Sans Regular";
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+li {
+    font-family: "Egon Sans Regular";
+}
+
+header {
+    height: 7vh;
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*ANIMATION LIST NUMBER IN HEADER*/
+
+@keyframes addedtolistheaderanimation {
+    0%   {left: 60%; opacity: 0;}
+    100%  {left: 52%; opacity: 1;}
+}
+
+@keyframes removedfromlistheaderanimation {
+    0%   {transform: scale(1); opacity: 1;  }
+    100%  {transform: scale(0); opacity: 0;  }
+}
+
+header nav>img {
+    position: absolute;
+    width: 1.8rem;
+    left: 52%;
+    z-index: 20;
+/*    top: 23%;*/
+    opacity: 0;
+}
+
+.addedtolistanimation {
+    animation-name: addedtolistheaderanimation;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.removedfromlistanimation {
+    animation-name: removedfromlistheaderanimation;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+header li {
+    height: 1.5rem;;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+}
+
+header li:nth-of-type(1) {
+    background-image: url(../images/account.svg);
+    background-position: left; 
+}
+
+header li:nth-of-type(2) {
+    background-position: center; 
+    background-image: url(../images/Watchlist.svg);
+}
+
+header li:nth-of-type(3) {
+    background-position: right; 
+    background-image: url(../images/search.svg);
+}
+
+header a {
+    color: transparent;
+}
+
+main>section {
+    position: relative;
+    overflow: hidden;
+    height: 31vh;
+}
+
+/*ANIMATION GRADIENT ADDED TO LIST*/
+
+@keyframes addtolistgradientanimation {
+    0%   {height: 0;}
+    100%  {height: 80%;}
+}
+
+main section>div:nth-of-type(2).addtolistgradientanimation {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    background: linear-gradient(#69DE7B, transparent);
+    width: 100%;
+    height: 0;
+    animation-name: addtolistgradientanimation;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+section>div:nth-of-type(1) p {
+    margin-top: 4rem;
+}
+
+section div:nth-of-type(1) {
+    position: absolute;
+    z-index: 10;
+    bottom: 2rem;
+    padding-left: 2rem;
+    width: 100%; 
+}
+
+section img {
+    width: 110%;
+}
+
+section div:nth-of-type(1)>h2, section div:nth-of-type(2)>div>h2 {
+    padding-right: 2rem;
+}
+
+section div:nth-of-type(1)>h2, section div:nth-of-type(1)>p, section div:nth-of-type(2)>div>h2, section div:nth-of-type(2)>div>p {
+    color: white;
+} 
+
+section>div:nth-of-type(1) button {
+    background-image: url(../images/add.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-color: transparent;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    color: white;
+    border: none;
+    z-index: 20;
+}
+
+
+section>div:nth-of-type(1) button#removefromlistbutton {
+    background-image: url(../images/addedcheck.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-color: transparent;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    color: white;
+    border: none;
+    z-index: 20;
+    display: none;
+}
+
+button:focus {
+    outline:0;
+}
+
+header li:nth-of-type(2).activewatchlist {
+    background-image: url(../images/Watchlistactive.svg);
+}
+
+main.yourwatchlist section:nth-of-type(1)>div {
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 2rem;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+main.yourwatchlist section:nth-of-type(1)>div h1, main.yourwatchlist section:nth-of-type(1)>div p {
+    color: #344551;
+}
+
+main.yourwatchlist section:nth-of-type(1)>div p {
+   margin-top: 0rem; 
+    font-size: 1.5rem;
+}
+
+main.yourwatchlist section>div:nth-of-type(1) button#removefromlistbutton {
+    display: block;
+}
+
+main.yourwatchlist section>div:nth-of-type(1) button {
+    background-image: url(../images/addedcheck.svg);
+    display: block;
+}
+
+main.yourwatchlist section>div:nth-of-type(2) {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 0rem;
+    background: linear-gradient(#69DE7B, transparent);
+    width: 100%;
+    height: 80%;
+}
+
+
+/*REMOVE FROM WATCHLIST*/
+
+@keyframes removefromlistanimation {
+    0%   {opacity: 1; margin-top: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0;}
+    100%  {opacity: 0; margin-top: -31vh;}
+}
+
+main.yourwatchlist section:nth-of-type(2).removefromlistanimation {
+    animation-name: removefromlistanimation;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
