@@ -2,7 +2,7 @@
 Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 > Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
 
-# 1e test (https://joopakerboom.github.io/Film-opslaan/filmopslaantest01/)
+# 1e test (https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest01/)
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 # FOTOTOTOTOTOTOOTOTOTO
 1. Damyanti gaf aan dat de look & feel fijn en minimalistisch is. Op deze manier kwam het voor Damayanti duidelijk en to the point, doordat het "toevoeg icoon" meteen een actie aangaf. Damayanti vertelde dat ze goed kon focussen op de titel en afbeelding van de film en niet werd afgeleid met allemaal woorden en knopjes om te titel heen. Daarnaast vertelde Damayanti dat de wazige overlay goed werkte om haar te laten zien dat er iets gebeurd na haar interactie. De tekst die in beeld komt van de linkerkant voelt natuurlijk voor Damyanti en vond zij een fijne snelle confirmatie dat de film toegevoegd is. Het gele vinkje en het woord "added" vertelde Damayanti al genoeg in 1 oogopslag. De snelheid van de overgang is misschien net iets te snel, maar door de duidelijke kleuren en woorden vindt Damayanti het duidelijk genoeg.
@@ -16,7 +16,7 @@ Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 2.
 3.
 
-# 2e test (https://joopakerboom.github.io/Film-opslaan/filmopslaantest02/)
+# 2e test (https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest02/)
 # FOTOTOTOTOTOTOOTOTOTO
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 1. Damayanti zag duidelijk waar op geklikt moest worden om de film toe te voegen, vanwege de titel "Add to watchlist", maar dit was pas na eventjes zoeken. Damayanti gaf aan dat de "toevoeg button" de zelfde kleur is als de titel wat de knop deed wegvallen. Daarnaast leken het op 3 verschillende typefaces vanwege de groottes, dit zorgde ervoor dat het vakje van de film druk overkwam. 
@@ -32,7 +32,7 @@ Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 2.
 3.
 
-# 3e test (https://joopakerboom.github.io/Film-opslaan/filmopslaantest03/)
+# 3e test (https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest03/)
 # FOTOTOTOTOTOTOOTOTOTO
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 1. Damayanti gaf aan dat het minteken, dat in beeld werd werd geschoven, duidelijk is wat betreft de functie. Maar het minteken met de rode achtergrond vond Damayanti bijna te aantrekkelijk om daar op te klikken (voelt alsof het moet). Daarnaast was het minteken met de rode achtergrond te overheersend in contrast met het vinkje icoon wat opgeslagen uitstraalde. Damayanti gaf aan dat het icoon rechtsboven heel duidelijk is en haar lezen bespaart. Damayanti vond het duidelijk wat het icoon is en zal doen na interactie. Het viel haar niet op dat er onderin de toolbar een 1 verscheen bij het "watchlist" icoon.
@@ -48,7 +48,7 @@ Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 2.
 3.
 
-# Verbeterd ontwerp adhv testen met Damayanti - Versie 01 (https://joopakerboom.github.io/Film-opslaan/filmopslaantestversie01/)
+# Verbeterd ontwerp adhv testen met Damayanti - Versie 01 (https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie01/)
 # FOTOTOTOTOTOTOOTOTOTO
 1. De toolbar en de bijbehoorde animatie van het toevoegen aan de watchlist valt beter op als deze bovenaan staat, in plaats van onderaan. 
 2. Het toevoeg en verwijder icoon van test 1 en 3 had een duidelijke feed forward en visuele uitstraling/ hierarchie.
@@ -56,7 +56,7 @@ Als ik een lijst films heb gevonden, wil ik de leuke films opslaan om thuis...
 4. Het verder willen browsen na het verwijderen van een film op de watchlist pagina moet toegevoegd worden doormiddel van een link.
 5. De animatie snelheden moeten aangepast worden met een snelheid wat de applicatie niet sloom doet aanvoelen.
 
-# Verbeterd ontwerp adhv testen met Damayanti, Bart en ? - Versie 02 (https://joopakerboom.github.io/Film-opslaan/filmopslaantestversie02/)
+# Verbeterd ontwerp adhv testen met Damayanti, Bart en ? - Versie 02 (https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie02/)
 # FOTOTOTOTOTOTOOTOTOTO
 1. 
 2.
