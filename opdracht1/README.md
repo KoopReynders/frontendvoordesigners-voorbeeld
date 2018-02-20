@@ -16,10 +16,11 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 3. Op de watchlist pagina wil Damayanti meteen verder kunnnen zoeken naar films na eentje verwijderd te hebben uit haar lijst. Ze verwacht een zinnetje zoals "Add more movies to your watchlist" of een terug knop naar het browsen van films. Daarnaast vindt Damayanti het duidelijk hoe een film verwijderd moet worden en voelt natuurlijk door gewoon weer op het enige "lijst icoon" rechtsboven de filtitel te klikken. De animatie gaat vloeiend maar mag volgens haar mening sneller, ze wil van de film af, ga Damayanti aan.
 
-> Test personen: Bart & ? - Dinsdag 13 februari
-1.
-2.
-3.
+> Test personen: Bart & Giacomo - Dinsdag 13 februari
+1. Om een film te verwijderen zou Bart opzij swipen, zodat er een rood vlak (net als bij zijn mail) ontstaat waarbij het vervolgens zijn toegevoegde film kan verwijderen.
+2. Bart en Giacomo missen het feit dat een film is toegevoegd als ze door alle mogelijkheden scrollen. Dit komt omdat het vinkje geel is en de zelfde kleur als het toevoeg plusje.
+3. Bart en Giacomo zijn nog verward waar zij zijn op de pagina en hoe ze daar zijn gekomen.
+4. Bart en Giacomo zijn overtuigd en enthousiast over de look en feel van de blur overlay en animatie. Mag wel iets sneller wat betreft de animatie.
 
 # 2e test - [filmopslaantest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest02/)
 
@@ -36,10 +37,10 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 4. Het viel Damayanti meteen op dat er naast de gradient ook een animatie met een 1 verscheen bij haar toolbar. Dit kwam doordat de header aan de bovenkant zat en hierdoor eerder opviel.
 
-> Test personen: Bart & ? - Dinsdag 13 februari
-1.
-2.
-3.
+> Test personen: Bart & Giacomo - Dinsdag 13 februari
+1. De header boven in beeld is veel duidelijk dan als deze beneden is. Hierdoor valt de animatie dat een film toegevoegd is ook beter op volgens Bart en Giacomo.
+2. De groene overlay is wel heel duidelijk ook omdat deze blijft staan. Maar wordt ook "too-much" als er meerdere films worden toegevoegd en daarbij is groen een "gevaarlijk lelijke kleur bij posters" volgens Bart en Giacomo.
+3. De knoppen zien er visueel groot genoeg uit in de header, alleen het klikbare gedeelte mag groter voor makkelijkere toegang.
 
 # 3e test - [filmopslaantest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest03/)
 
@@ -57,10 +58,9 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 4. Op de watchlist pagina vond Dami het aantrekkelijk om te zien hoe het werkte en helemaal volgens haar mental model. Damayanti gaf aan dat ze er van uit ging dat als ze op de Watchlist pagina een film verwijderde dat deze ook in zijn geheel verdween. Dat deed het ook. Ze zou het raar vinden als deze bleef staan. De overgang van het verwijderen van een film ging voor haar gevoel nog erg traag.
 
-> Test personen: Bart & ? - Dinsdag 13 februari
-1.
-2.
-3.
+> Test personen: Bart & Giacomo - Dinsdag 13 februari
+1. De animatie vinden Bart en Giacomo heel mooi vloeiend, duidelijk wat betreft functie en goed klikbaar. Maar daarbij geven zij ook aan dat de knop bijna te aantrekkelijk is om op te klikken.
+2. De melding die aangeeft "added" of "removed" vinden Bart en Diacomo duidelijk en goed leesbaar. Maar de melding met de volledige tekst "...is added to your watchlist" van test 1 vinden zij nog beter en mooier doormiddel van de blur overlay.
 
 # Verbeterd ontwerp adhv testen met Damayanti - [Versie 01](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie01/)
 
@@ -74,7 +74,11 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 4. Het verder willen browsen na het verwijderen van een film op de watchlist pagina moet toegevoegd worden doormiddel van een link.
 5. De animatie snelheden moeten aangepast worden met een snelheid wat de applicatie niet sloom doet aanvoelen.
 
-# Verbeterd ontwerp adhv testen met Damayanti, Bart en ? - [Versie 02](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie02/)
+> Test personen: Bart & Giacomo - Dinsdag 13 februari
+1. De "rode 1" die verschijnt in de header als een film wordt toegevoegd is een stuk duidelijker dan de "gele 1". Ook wat betreft de animatie. 
+2. De "rode 1" heeft nog een negatieve kleur. Bart en Giacomo stelde voor om net zoals zij aangaven bij test 1 om de kleur van het vinkje te veranderen en de kleur van de "1" in de header dezelfde kleur te maken. Hierdoor valt tijdens het scollen sneller op als er een film toegevoegd is.
+
+# Verbeterd ontwerp adhv testen met Damayanti, Bart en Giacomo - [Versie 02](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie02/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
 
