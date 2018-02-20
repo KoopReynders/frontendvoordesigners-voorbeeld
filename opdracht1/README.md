@@ -78,11 +78,8 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
 
-1. 
-2.
-3.
-4.
+<em>De tweede aangepaste/ verbeterde versie heeft de focus op minimalisme en duidelijke visuele hierarchie behouden van versie 1, waarbij een (gekleurde) knop om de desbetreffende film toe te voegen, rechtsboven in het kader zit. Hiernaast wordt er een confirmatie gegeven dat de film is toegevoegd doormiddel van een "blurred overlay". De knop heeft na het toevoegen een groene kleur om duidelijkheid te scheppen tussen het te kunnen toe voegen en toegevoegd. Om de desbetreffende film uit de lijst te verwijderen moet de gebruiker opzij swipen waarbij er een delete knop verschijnt. De toolbar is naar het bovenste gedeelte verplaatst, omdat uit de testen bleek dat de animatie in de toolbar boven aan het beste opviel. Tot slot is het "1tje" in de toolbar, als een film wordt toegevoegd, groen gemaakt omdat het hierdoor positiever is dan rood. Daarnaast is er een overlay toegevoegd die geactiveerd kan worden als de gebruiker zijn vinger op het rondje plaats, waarbij er extra informatie over de desbetreffende film laten zien wordt.</em>
 
 > Touch-event
-uitleg over wat het event doet en hoe dat werkt ... Maak het niet te groot. Vertel wat het 'event' doet, en laat zien wat je hebt geprobeerd.
+Het touch event wordt geactiveerd met de touchstart listener, wat luistert naar het aanraken van dat element. Het touchend event luistert naar het NIET meer aanraken van dat element.
 
