@@ -66,6 +66,8 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test04.png" width="200">
 
+<em>De eerste aangepaste/ verbeterde versie heeft de focus op minimalisme en duidelijke visuele hierarchie behouden van versie 1, waarbij een (gekleurde) knop om de desbetreffende film toe te voegen, rechtsboven in het kader zit. Hiernaast wordt er een confirmatie gegeven dat de film is toegevoegd doormiddel van een "blurred overlay". De knop kan nogmaals ingedruk worden om de film te verwijderen uit de lijst. De toolbar is naar het bovenste gedeelte verplaatst, omdat uit de testen bleek dat de animatie in de toolbar boven aan het beste opviel. Tot slot is het "1tje" in de toolbar, als een film wordt toegevoegd, rood gemaakt omdat het hierdoor duidelijker is dan geel.</em>
+
 1. De toolbar en de bijbehoorde animatie van het toevoegen aan de watchlist valt beter op als deze bovenaan staat, in plaats van onderaan. 
 2. Het toevoeg en verwijder icoon van test 1 en 3 had een duidelijke feed forward en visuele uitstraling/ hierarchie.
 3. Het blur effect met de bijbehoorende melding dat de film is toegevoegd aan de lijst, was het meest natuurlijk, duidelijk en overzichtelijk. Dit in combinatie met de duidelijke confirmatie tekst en het gele vinkje als de film is toegevoegd.
