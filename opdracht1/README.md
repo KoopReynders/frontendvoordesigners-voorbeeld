@@ -4,7 +4,9 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 # 1e test - [filmopslaantest01](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest01/)
 
-<img src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200">
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200"> 
+
+<em>De eerste versie heeft een focus op minimalisme en duidelijke visuele hierarchie, waarbij een (gekleurde) knop om de desbetreffende film toe te voegen, rechtsboven in het kader zit. Hiernaast wordt er een confirmatie gegeven dat de film is toegevoegd doormiddel van een "blurred overlay". De knop kan nogmaals ingedruk worden om de film te verwijderen uit de lijst.</em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 
@@ -21,7 +23,9 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 # 2e test - [filmopslaantest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest02/)
 
-<img src="https://oege.ie.hva.nl/~akerboj001/githubimages/test02.png" width="200">
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test02.png" width="200">
+
+<em>De tweede versie heeft een focus op het verduidelijken in teskt dat de film toegevoegd kan worden aan de lijst, in plaats van een icon. Hiernaast wordt er een confirmatie gegeven dat de film is toegevoegd doormiddel van een geel vinkje voor de knop en een groene gradient die zal blijven staan zolang de film is toegevoegd. De knop kan nogmaals ingedruk worden om de film te verwijderen uit de lijst.</em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 1. Damayanti zag duidelijk waar op geklikt moest worden om de film toe te voegen, vanwege de titel "Add to watchlist", maar dit was pas na eventjes zoeken. Damayanti gaf aan dat de "toevoeg button" de zelfde kleur is als de titel wat de knop deed wegvallen. Daarnaast leken het op 3 verschillende typefaces vanwege de groottes, dit zorgde ervoor dat het vakje van de film druk overkwam. 
@@ -39,7 +43,9 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 # 3e test - [filmopslaantest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantest03/)
 
-<img src="https://oege.ie.hva.nl/~akerboj001/githubimages/test03.png" width="200">
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test03.png" width="200">
+
+<em>De derde versie heeft een focus op minimalisme en duidelijke visuele hierarchie, waarbij een (gekleurde) knop om de desbetreffende film toe te voegen, rechtsboven in het kader zit. Hiernaast wordt er een confirmatie gegeven dat de film is toegevoegd doormiddel van een bericht wat vannuit rechts in beeld schuift en de afbeelding van de film doet bewegen. Daarnaast is het confirmatie bericht korter door een simpele "added" of "removed". Het bericht laat vervolgens een rode knop achter die de gebruiker kan gebruiken om de film te verwijderen uit haar lijst.</em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 12 februari
 
@@ -58,7 +64,7 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 # Verbeterd ontwerp adhv testen met Damayanti - [Versie 01](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie01/)
 
-<img src="https://oege.ie.hva.nl/~akerboj001/githubimages/test04.png" width="200">
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test04.png" width="200">
 
 1. De toolbar en de bijbehoorde animatie van het toevoegen aan de watchlist valt beter op als deze bovenaan staat, in plaats van onderaan. 
 2. Het toevoeg en verwijder icoon van test 1 en 3 had een duidelijke feed forward en visuele uitstraling/ hierarchie.
@@ -68,7 +74,7 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 
 # Verbeterd ontwerp adhv testen met Damayanti, Bart en ? - [Versie 02](https://joopakerboom.github.io/frontendvoordesigners/opdracht1/filmopslaantestversie02/)
 
-<img src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
 
 1. 
 2.
