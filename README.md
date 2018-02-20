@@ -3,6 +3,8 @@ In het vak Frontend voor Designers leer je hoe je met HTML en CSS, en een beetje
 
 Het vak bestaat uit 3 opdrachten:
 
-Opdracht 1
+Opdracht 1 - [Een film opslaan in "mijn lijst"](https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht1)
+
 Opdracht 2
+
 Opdracht 3
