@@ -622,7 +622,7 @@ main.detailpage section>div:nth-of-type(2)>img:nth-of-type(1) {
 }
 
 main.detailpage section>div:last-of-type {
-overflow-x: hidden;
+
 }
 
 main.detailpage section>div:last-of-type>img {
@@ -638,12 +638,26 @@ main.detailpage section>div:last-of-type>img {
 }
 
 main.detailpage section>div:last-of-type>button {
-    top: 20rem;
+    background-image: url(../images/left.svg);
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-color: transparent;
+    background-position: right;
+    font-size: 1rem;
+    color: transparent;
+    border: none;
+    background-color: none;
     position: absolute;
+    bottom: 1rem;
+    right: 2.8rem;
+    z-index: 40;
 }
 
 main.detailpage section>div:last-of-type>button:last-of-type {
-    left: 5rem;
+    background-image: url(../images/right.svg);
+    right: 1rem;
 }
 
 main.detailpage section div:nth-of-type(2)>div {
@@ -652,26 +666,24 @@ main.detailpage section div:nth-of-type(2)>div {
     padding-left: 2rem;
 }
 
-main.detailpage section>div:nth-of-type(2)>div>button {
-    position: relative;
-    right: auto;
-    top: auto;
+main.detailpage section>div:nth-of-type(2)>div>a {
+    display: block;
     margin-top: 1rem;
-    width: 8.5rem;
+    width: 4rem;
     height: auto;
-    background-image: url(../images/addtolist.svg);
+    background-image: url(../images/play.svg);
     background-position: 1rem;
     background-repeat: no-repeat;
-    background-size: 2rem;
+    background-size: 1rem;
     background-color: transparent;
     font-size: 1.5rem;
     color: white;
     border: none;
     background-color: #F2D73D;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     font-family: "Egon Sans Black";
     text-transform: uppercase;
-    padding: 0.5rem 1rem 0rem 3.5rem;
+    padding: 0.5rem 1rem 0rem 2.5rem;
     z-index: 40;
 }
 
