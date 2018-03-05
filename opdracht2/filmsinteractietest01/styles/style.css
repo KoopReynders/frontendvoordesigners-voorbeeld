@@ -397,23 +397,10 @@ section>section:last-of-type button, main.yourwatchlist section>section:last-of-
     left: 2rem;
     color: transparent;
     font-size: 0rem;
-/*
-    width: 80%;
-    font-family: "Egon Sans Black";
-    text-transform: uppercase;
-    font-size: 1rem;
-    color: white;
-    padding-left: 3rem;
-*/
 }
 
 section>section:last-of-type h3, main.yourwatchlist section>section:last-of-type h3 {
     display: none;
-/*
-    color: white;
-    left: 50%;
-    transform: translate(-50%, 0);
-*/
 }
 
 /*EXTRA INFO OVERLAY */
@@ -427,13 +414,6 @@ section>section:last-of-type h3, main.yourwatchlist section>section:last-of-type
     0%   {opacity: 0;}
     100% {opacity: 1;}
 }
-
-/*
-@keyframes extrainfotouchedanimation {
-    0%   {height: 200%; opacity: 1;}
-    100% {height: 35%; opacity: 0;}
-}
-*/
 
 section>div:nth-of-type(3) {
     position: absolute;
@@ -459,16 +439,6 @@ section>div:nth-of-type(3) {
     animation-timing-function: ease;
     animation-fill-mode: forwards;  
 }
-
-/*
-.extrainfotouchedanimation {
-    animation-name: extrainfotouchedanimation;
-    animation-delay: 0.5s;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards; 
-}
-*/
 
 section>div:nth-of-type(3)>div {
     opacity: 0;
@@ -592,6 +562,12 @@ main.detailpage section {
     height: 93vh;
     width: 100vw;
 /*    overflow-x: hidden;*/
+    position: fixed; 
+/*    CHECK DEZE NOG MANNNNNNN!
+    
+    
+    
+    */
 }
 
 main.detailpage section div:nth-of-type(2)>div>h2 {
@@ -602,11 +578,6 @@ main.detailpage section div:nth-of-type(2)>div>h2 {
 main.detailpage section div:nth-of-type(2)>div>p {
     font-size: 1.5rem;
 }
-
-main.detailpage section>div:nth-of-type(2)>div>div p:nth-of-type(3) {
-    padding-right: 1rem;
-}
-
 
 main.detailpage section>div:nth-of-type(2) {
 /*    overflow-x: scroll;*/
@@ -619,10 +590,6 @@ main.detailpage section>div:nth-of-type(2)>img:nth-of-type(1) {
     height: 100%;
     opacity: 1;
     display: none;
-}
-
-main.detailpage section>div:last-of-type {
-
 }
 
 main.detailpage section>div:last-of-type>img {
