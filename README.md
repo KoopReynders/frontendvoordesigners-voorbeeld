@@ -5,6 +5,6 @@ Het vak bestaat uit 3 opdrachten:
 
 Opdracht 1 - [Een film opslaan in "mijn lijst"](https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht1)
 
-Opdracht 2
+Opdracht 2 - [Een functionaliteit met meerdere user interacties](https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht2)
 
 Opdracht 3
