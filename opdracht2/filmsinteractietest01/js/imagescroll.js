@@ -29,26 +29,36 @@ function showImages(n) {
      movieImages[i].style.display = "none";  
       // De vorige image die actief was moet terug gezet worden op display none.
   }
-  
-  movieImages[slideIndex-1].style.display = "block"; // Laat de image zien uit de array met -1 anders wordt de eerste overgeslagen.
+    
+    movieImages[slideIndex-1].style.display = "block"; 
+    movieImages[slideIndex-1].classList.add('swipeleftanimation');
+    
+    setTimeout(function(){ 
+    movieImages[slideIndex-1].classList.remove('swipeleftanimation');
+}, 500);
+    // Laat de image zien uit de array met -1 anders wordt de eerste overgeslagen.
 }
 
-showImages(slideIndex); // Om de eerste image al zichtbaar te maken.
+showImages(slideIndex); // Om de functie uit te voeren en de eerste image al zichtbaar te maken.
 
 function plusDivs(n) {
-  showImages(slideIndex += n);
-    console.log(slideIndex);
+  slideIndex += n;
+  showImages(slideIndex);
+}
+
+// Laat de image van links inkomen ipv recht
+function prevImage() {
+  movieImages[slideIndex-1].classList.add('swiperightanimation');
+    
+    setTimeout(function(){ 
+    movieImages[slideIndex-1].classList.remove('swiperightanimation');
+}, 500);
 }
 
 // EVENTLISTENER DIE LUISTERT NAAR EEN CLICK OF KEYDOWN
 prevButton.addEventListener("click", function(){
     plusDivs(-1);
-}, false);
-
-window.addEventListener('keydown', function(e) {
-    if (e.keyCode === 37) {
-        plusDivs(-1);
-    }
+    prevImage();
 }, false);
 
 nextButton.addEventListener("click", function(){
@@ -56,11 +66,15 @@ nextButton.addEventListener("click", function(){
 }, false);
 
 window.addEventListener('keydown', function(e) {
+    if (e.keyCode === 37) {
+        plusDivs(-1);
+        prevImage();
+    }
+    
     if (e.keyCode === 39) {
         plusDivs(1);
     }
 }, false);
-
 
 // FUNCTION DIE BEPAALD WELKE KANT ER OP GESWIPED WORDT
 function swipeGesture() {
@@ -72,6 +86,7 @@ function swipeGesture() {
     if (touchendX >= touchstartX) {
         console.log('Swiped right');
         plusDivs(-1);
+        prevImage();
     }
 }
 

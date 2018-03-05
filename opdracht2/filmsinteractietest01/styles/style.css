@@ -561,13 +561,6 @@ main.yourwatchlist section:nth-of-type(2).removefromlistanimation {
 main.detailpage section {
     height: 93vh;
     width: 100vw;
-/*    overflow-x: hidden;*/
-    position: fixed; 
-/*    CHECK DEZE NOG MANNNNNNN!
-    
-    
-    
-    */
 }
 
 main.detailpage section div:nth-of-type(2)>div>h2 {
@@ -592,16 +585,58 @@ main.detailpage section>div:nth-of-type(2)>img:nth-of-type(1) {
     display: none;
 }
 
+@keyframes swipeleftanimation {
+    0%   {left: 100%;}
+    100% {left: 50%;}
+}
+
+
+@keyframes swiperightanimation {
+    0%   {left: 0%;}
+    100% {left: 50%;}
+}
+
+
 main.detailpage section>div:last-of-type>img {
     width: auto;
     height: 100%;
     opacity: 1;
     z-index: -10;
-    display: none;
+    display: block;
     top: auto;
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+}
+
+.swipeleftanimation {
+    animation-name: swipeleftanimation;
+    animation-delay: 0s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    }
+
+.swiperightanimation {
+    animation-name: swiperightanimation;
+    animation-delay: 0s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    }
+
+main.detailpage section>div:nth-of-type(2)>a {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-image: url(../images/backicon.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
+    color: transparent;
+    border: none;
+    z-index: 20;
 }
 
 main.detailpage section>div:last-of-type>button {
