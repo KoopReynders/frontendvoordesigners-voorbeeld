@@ -614,13 +614,6 @@ main.detailpage section>div:last-of-type>img {
     position: fixed;
     left: 50%;
     transform: translate(-50%);
-    
-/*
-    animation-name: swipeleftanimation;
-    animation-delay: 0s;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-*/
 }
 
 main.detailpage section>div:last-of-type>img.imagedissapear {
@@ -690,33 +683,83 @@ main.detailpage section div:nth-of-type(2)>div>div p:nth-of-type(1), main.detail
     padding-top: 0;
 }
 
+/*ADDITIONAL INFORMATION ABOUT MOVE STORY, CAST, TRAILERS ETC.*/
+
+@keyframes moreinfoanimation {
+    0%    {margin-left: -2rem;}
+    100%  {margin-left: 0rem; }
+}
+
 main.detailpage section div:nth-of-type(2)>div>div h3 {
     display: inline-block;
     margin-right: 1rem;
     font-family: "Egon Sans Black Italic";
     padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
     color: white;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(1) {
+    position: relative;
+    display: block;
+    width: 18.5rem;
+    height: 0.25rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>span {
+    display: block;
+    position: absolute;
+    height: 100%;
+    background-color: #F2CF3D;
+    transition: .5s;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>span.storylineunderline {
+    left: 0rem;
+    width: 7rem;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>span.castunderline {
+    left: 8rem;
+    width: 3rem;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(1)>span.trailersunderline {
+    left: 12.5rem;
+    width: 6rem;
 }
 
 main.detailpage section div:nth-of-type(2)>div>div h3.activeinfo {
     color: #F2CF3D; 
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>p, main.detailpage section div:nth-of-type(2)>div>div>div>div {
+main.detailpage section div:nth-of-type(2)>div>div>div>p, main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2), main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3)  {
     display: none;
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>p.infoappear, main.detailpage section div:nth-of-type(2)>div>div>div>div.infoappear {
+main.detailpage section div:nth-of-type(2)>div>div>div>p.infoappear, main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2).infoappear, main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3).infoappear {
     display: block;
+    animation-name: moreinfoanimation;
+    animation-delay: 0s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>div {
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2), main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3) {
     overflow-x: scroll;
-    padding-right: 2rem;
+    width: 22rem;
+    white-space: nowrap;
+    height: 12rem;
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>div>div {
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3) {
+    height: 8rem;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div, main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3)>div {
+    white-space: normal;
     position: relative;
     height: 12rem;
     width: 9rem;
@@ -724,17 +767,35 @@ main.detailpage section div:nth-of-type(2)>div>div>div>div>div {
     border-radius: 0.5rem;
     display: inline-block;
     margin-right: 1rem;
+    top: 0;
+    padding-left: 0;
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>div>div>img {
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3)>div {
+    height: 8rem;
+    width: 15rem;
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>img {
     position: absolute;
+    
 }
 
-main.detailpage section div:nth-of-type(2)>div>div>div>div>div>h4 {
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3)>div>iframe {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>h4 {
     background-color: white;
     position: absolute;
     bottom: 0;
-    padding: 1rem;
+    padding: 1rem; 
+}
+
+main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(3)>div {
     
 }
 
