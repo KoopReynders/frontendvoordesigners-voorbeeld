@@ -33,11 +33,21 @@ Dami zou iets meer white space tussen de teksten willen. Het lijkt nu een beetje
 
 > Test persoon: Damayanti Blankestijn - Dinsdag 13 maart
 
-1. Woord kan wegvallen - storyline, moet dan naar andere img gaan.
-
 Begrijpt dat je door de cast kan swipen
+
 Background img swiped mee wat niet de bedoeling is.
 
 Kan moeilijk swipen door de trailers
 
 Transitions bij more info - van links is wel Nice. Maar een fade in kan helpen. Daarnaast is de snelheid van de animatie lekker.
+
+> Test persoon: Bart Rijnen - Dinsdag 13 maart
+
+Trailers zijn nice en heeft een toegevoegde waarde. Daarnaast werkt het extra informatie tab fijn en natuurlijk.
+Daarnaast mag de line height bij de storyline iets groter, het voelt nu te krap.
+
+De hoeken van de bij de cast images en trailers zijn nog te rond naar Bart zijn mening en is niet concistent met de "play button". 
+
+Het verwijderen van een film heeft nu een groot rood scherm, daar kan tekst naast of de img mag groter volgens Bart.
+
+
