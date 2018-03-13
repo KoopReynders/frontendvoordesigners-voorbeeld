@@ -24,3 +24,20 @@ Het swipen had ze niet geweten. Maar het is natuurlijker. De grote zijn fijn en 
 De uitlijning kan nog netter aangezien het niet helemaal gelijk loopt. Met de iconen en de tekst.
 
 Dami zou iets meer white space tussen de teksten willen. Het lijkt nu een beetje squashed volgens haar.
+
+# 2e test - [filmsinteractietest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht2/filmsinteractietest02)
+
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/opdracht2_test01.png" width="200"> 
+
+<em>De tweede versie heeft een focus op</em>
+
+> Test persoon: Damayanti Blankestijn - Maandag 5 maart
+
+1. Woord kan wegvallen - storyline, moet dan naar andere img gaan.
+
+Begrijpt dat je door de cast kan swipen
+Background img swiped mee wat niet de bedoeling is.
+
+Kan moeilijk swipen door de trailers
+
+Transitions bij more info - van links is wel Nice. Maar een fade in kan helpen. Daarnaast is de snelheid van de animatie lekker.
