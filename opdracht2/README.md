@@ -31,7 +31,7 @@ Dami zou iets meer white space tussen de teksten willen. Het lijkt nu een beetje
 
 <em>De tweede versie heeft een focus op</em>
 
-> Test persoon: Damayanti Blankestijn - Maandag 5 maart
+> Test persoon: Damayanti Blankestijn - Dinsdag 13 maart
 
 1. Woord kan wegvallen - storyline, moet dan naar andere img gaan.
 
