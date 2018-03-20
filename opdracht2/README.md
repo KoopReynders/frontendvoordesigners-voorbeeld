@@ -29,7 +29,7 @@ Dami zou iets meer white space tussen de teksten willen. Het lijkt nu een beetje
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/opdracht2_test01.png" width="200"> 
 
-<em>De tweede versie heeft een focus op</em>
+<em>De tweede versie heeft een focus op het meer informatie geven over een film. Hierbij kan de gebruiker navigeren door een overzicht en extra informatie verkrijgen over de storyline, cast en trailers.</em>
 
 > Test persoon: Damayanti Blankestijn - Dinsdag 13 maart
 
@@ -50,10 +50,10 @@ De hoeken van de bij de cast images en trailers zijn nog te rond naar Bart zijn 
 
 Het verwijderen van een film heeft nu een groot rood scherm, daar kan tekst naast of de img mag groter volgens Bart.
 
-# Verbeterd ontwerp adhv testen met Damayanti en Bart - [Versie 01](https://joopakerboom.github.io/frontendvoordesigners/opdracht2/filmsinteractietest03)
+# Verbeterd ontwerp adhv testen met Damayanti en Bart - [Test 03](https://joopakerboom.github.io/frontendvoordesigners/opdracht2/filmsinteractietest03)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
 
-<em>De tweede </em>
+<em>Aan de hand van de gegeven feedback van de eerdere twee tests heb ik punten verwerkt tot een uiteindelijke "definitieve versie" van meerdere interacties op een film detail pagina. </em>
 
 
