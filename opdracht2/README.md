@@ -50,4 +50,10 @@ De hoeken van de bij de cast images en trailers zijn nog te rond naar Bart zijn 
 
 Het verwijderen van een film heeft nu een groot rood scherm, daar kan tekst naast of de img mag groter volgens Bart.
 
+# Verbeterd ontwerp adhv testen met Damayanti en Bart - [Versie 01](https://joopakerboom.github.io/frontendvoordesigners/opdracht2/filmsinteractietest03)
+
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test05.png" width="200">
+
+<em>De tweede </em>
+
 
