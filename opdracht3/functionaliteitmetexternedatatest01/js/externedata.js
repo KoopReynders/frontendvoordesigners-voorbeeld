@@ -40,8 +40,11 @@ function showHeroes(jsonObj) {
       var myDiv2 = document.createElement('div');
       var myImg1 = document.createElement('img');
       var myButton1 = document.createElement('button');
+      myButton1.setAttribute("id", "addtolistbutton");
       var myButton2 = document.createElement('button');
+      myButton2.setAttribute("id", "removefromlistbutton");
       var myButton3 = document.createElement('button');
+      myButton3.setAttribute("id", "moreinfobutton");
       var myImg2 = document.createElement('img');
       
       var myDiv3 = document.createElement('div');

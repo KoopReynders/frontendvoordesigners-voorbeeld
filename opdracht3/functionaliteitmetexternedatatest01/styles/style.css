@@ -329,6 +329,8 @@ section>div:nth-of-type(2) button {
     background-position: right;
     background-repeat: no-repeat;
     background-color: transparent;
+    width: 3rem;
+    height: 1.5rem;
     font-size: 1.5rem;
     color: transparent;
     border: none;
