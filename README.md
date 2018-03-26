@@ -7,5 +7,4 @@ Opdracht 1 - [Een film opslaan in "mijn lijst"](https://github.com/Joopakerboom/
 
 Opdracht 2 - [Een functionaliteit met meerdere user interacties](https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht2)
 
-Opdracht 3 - [Complexe functionaliteit met externe data]
-(https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht3)
+Opdracht 3 - [Complexe functionaliteit met externe data](https://github.com/Joopakerboom/frontendvoordesigners/tree/master/opdracht3)
