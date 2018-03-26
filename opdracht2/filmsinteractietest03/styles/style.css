@@ -798,6 +798,7 @@ main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>h4
     background-color: white;
     position: absolute;
     bottom: 0;
+    width: calc(100% - 2rem);
     padding: 1rem; 
 }
 
