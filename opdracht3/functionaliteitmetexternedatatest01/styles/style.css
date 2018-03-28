@@ -844,3 +844,106 @@ main.detailpage section>section:last-of-type button, main.yourwatchlist section>
     text-transform: uppercase;
     font-size: 1.2rem;
 }
+
+/*LOADING STATE*/
+
+@keyframes loadinganimation{
+    0%{
+        background-position: 150% 0;
+    }
+    100%{
+        background-position: -50% 0;
+    }
+}
+
+main section.loading {
+    background-color: #E3E3E3;
+}
+
+main section.loading>h1 {
+    display: none;
+}
+
+main section.loading>div:nth-of-type(1) {
+    position: absolute;
+    bottom: 3rem;
+    height: auto;
+    display: block;
+    padding-left: 1.5rem;
+    width: 20rem;
+}
+
+main section.loading div:nth-of-type(1)>div:nth-of-type(1) {
+    height: 1rem;
+    width: 12rem; 
+    background-color: white;
+}
+
+main section.loading div:nth-of-type(1)>div:nth-of-type(2) {
+    height: 2rem;
+    width: 15rem; 
+    margin-top: 0.5rem;
+    background-color: white;
+}
+
+main section.loading>button {
+    background-color: white;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+
+main section.loading>button:nth-of-type(2){
+    top: auto;
+    bottom: 3rem;
+}
+
+main section.loading>div:last-of-type {
+    height: 1.5rem;
+    margin: 0;
+    background: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 50;
+    bottom: 0;
+    top: auto;
+}
+
+main section.loading::after {
+    margin-left: 0rem;
+    background: none;
+    height: 100%;
+    z-index: 40;
+    
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: loadinganimation;
+    animation-timing-function: linear;
+    background: darkgray;
+    background: linear-gradient(to right, transparent 10%, #dddddd 20%, transparent 33%);
+    background-size: 800px 100px;
+    opacity: .7;
+}
+
+@keyframes mainanimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.mainanimation {
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-name: mainanimation;
+    animation-timing-function: ease;
+}
+

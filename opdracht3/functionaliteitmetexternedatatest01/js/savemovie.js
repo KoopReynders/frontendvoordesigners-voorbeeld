@@ -1,16 +1,24 @@
 /*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
 
+var i;
+
 var sectionBlur = document.querySelector('section:nth-of-type(1) div:nth-of-type(2)'); 
+
 var sectionConfirm = document.querySelector('section:nth-of-type(1)>div:nth-of-type(1)'); 
-var sectionRemove = document.querySelector('section>section:last-of-type'); 
+
+var sectionRemove = document.querySelector('section>section:last-of-type');
+
 var dragBar = document.querySelector('section img:nth-of-type(2)');
-var button = document.getElementById("addtolistbutton");
+
+//var button = document.getElementById("addtolistbutton"); 
+var button = document.querySelectorAll("section>div:nth-of-type(2) button:nth-of-type(1)");
+
 var closeButton = document.getElementById("removefromlistbutton"); 
 var removeButton = document.querySelector('section>section:last-of-type button');
 var addedToListNumber = document.querySelector('header nav>img'); 
 
-
 var listAdd = function () {
+    console.log("joehoe ", this);
     sectionRemove.style.display = 'block';
 	sectionBlur.classList.add('bluranimation');
     sectionConfirm.classList.toggle('confirmanimation');
@@ -35,7 +43,16 @@ var listAdd = function () {
     console.log ("added to list");
 };
 
-button.addEventListener('click', listAdd);
+//button.addEventListener('click', listAdd);
+
+for (i = 0; i < button.length; i++) {
+    //console.log(i)
+    //button[i].addEventListener("click", listAdd);
+    console.log("click click", button[i])
+    button[i].addEventListener('click',function(){
+       console.log('we hebben een klik', this) 
+    });
+  }
 
 var listRemove = function () {
     sectionRemove.style.display = 'none';

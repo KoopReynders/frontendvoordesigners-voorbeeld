@@ -16,10 +16,17 @@ console.log(request);
 
 request.onload = function() {
   var superHeroes = request.response;
-  showHeroes(superHeroes);
+    
+    setTimeout(function(){
+        main.innerHTML = "";
+        main.classList.add("mainanimation");
+        showHeroes(superHeroes);
+    }, 3000)
+    
 };
 
 function showHeroes(jsonObj) {
+    
   var heroes = jsonObj;
     console.log(heroes.length);
 
