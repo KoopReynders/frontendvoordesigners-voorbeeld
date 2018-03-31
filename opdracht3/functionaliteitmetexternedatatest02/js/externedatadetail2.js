@@ -6,7 +6,7 @@ var main = document.querySelector('main');
 //var section = document.querySelector('section');
 
 
-var requestURL = 'http://dennistel.nl/movies/1';
+var requestURL = 'http://dennistel.nl/movies/2';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
