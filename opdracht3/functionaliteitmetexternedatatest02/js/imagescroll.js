@@ -3,7 +3,7 @@
 // VARIABLES CAROUSEL SLIDES
 var i = 0;
 var slideIndex = 1; // Begin bij eerste image
-var movieImages = document.querySelectorAll('main.detailpage section>div:last-of-type>img');
+var movieImages = document.querySelectorAll('main.detailpage section>div:last-of-type>div');
 var prevButton = document.querySelector('main.detailpage section>div:last-of-type>button:nth-of-type(1)');
 var nextButton = document.querySelector('main.detailpage section>div:last-of-type>button:nth-of-type(2)');
 

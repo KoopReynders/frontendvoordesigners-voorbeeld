@@ -595,18 +595,18 @@ main.detailpage section>div:nth-of-type(2)>img:nth-of-type(1) {
     
 /*    VOOR DE API*/
     display: block;
-    height: 100vh;
+    height: 87vh;
 }
 
 @keyframes swipeleftanimation {
-    0%   {left: 100%;}
-    100% {left: 50%;}
+    0%   {left: 50%;}
+    100% {left: 0%;}
 }
 
 
 @keyframes swiperightanimation {
-    0%   {left: 0%;}
-    100% {left: 50%;}
+    0%   {right: 50%;}
+    100% {right: 0%;}
 }
 
 
@@ -622,27 +622,70 @@ main.detailpage section>div:last-of-type>img {
     transform: translate(-50%);
 }
 
-main.detailpage section>div:last-of-type>img.imagedissapear {
+main.detailpage section>div:last-of-type>div.imagedissapear {
     display: none;
 }
 
-main.detailpage section>div:last-of-type>img.swipeleftanimation {
+main.detailpage section>div:last-of-type>div.swipeleftanimation {
     animation-name: swipeleftanimation;
     animation-delay: 0s;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     }
 
-main.detailpage section>div:last-of-type>img.swiperightanimation {
+main.detailpage section>div:last-of-type>div.swiperightanimation {
     animation-name: swiperightanimation;
     animation-delay: 0s;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     }
 
+/*REVIEWS*/
+
+main.detailpage >section {
+    overflow-y:auto;
+    background-color: #7068D5;
+}
+
+main.detailpage section>div:last-of-type>div {
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+    background-color: #7068D5;
+    position: absolute;
+    width: calc(100vw - 3rem);
+    bottom: -6rem;
+    display: block;
+    
+}
+
+main.detailpage section>div:last-of-type>div>p, main.detailpage section>div:last-of-type>div>h2 {
+    color: white;
+}
+
+main.detailpage section>div:last-of-type>div>p:nth-of-type(2) {
+    font-family: "Egon Sans Black";
+    position: absolute;
+    font-size: 4.5rem;
+    right: 8rem;
+    z-index: 20;
+    bottom: 3.5rem;
+}
+
+main.detailpage section>div:last-of-type>div>img {
+    width: 6rem;
+    position: absolute;
+    right: 6.3rem;
+    bottom: 1.5rem;
+}
+
+main.detailpage>section::after {
+    top: 7vh;
+    position: fixed;
+   
+}
+
 main.detailpage section>div:nth-of-type(2)>a {
     position: absolute;
-    top: 1.5rem;
+    top: calc(7vh + 1.5rem);
     left: 1.5rem;
     background-image: url(../images/backicon.svg);
     background-position: left top;
@@ -654,6 +697,12 @@ main.detailpage section>div:nth-of-type(2)>a {
     color: transparent;
     border: none;
     z-index: 20;
+    position: fixed;
+}
+
+main.detailpage section>div:nth-of-type(2) button {
+    position: fixed;
+   top: calc(7vh + 1.5rem); 
 }
 
 main.detailpage section>div:last-of-type>button {
@@ -670,6 +719,7 @@ main.detailpage section>div:last-of-type>button {
     background-color: none;
     position: absolute;
     bottom: 1.5rem;
+    bottom: -4.5rem;
     right: 3.3rem;
     z-index: 40;
 }
@@ -681,7 +731,7 @@ main.detailpage section>div:last-of-type>button:last-of-type {
 
 main.detailpage section div:nth-of-type(2)>div {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 6.0rem;
     padding-left: 1.5rem;
 }
 
