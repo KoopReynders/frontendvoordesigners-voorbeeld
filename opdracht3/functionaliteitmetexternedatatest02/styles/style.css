@@ -258,14 +258,14 @@ section div:nth-of-type(2)>div {
     100% {opacity: 0;left: -5rem;}
 }
 
-section:nth-of-type(1) div:nth-of-type(2).bluranimation {
+section div:nth-of-type(2).bluranimation {
     animation-name: addedtolistbluranimation;
     animation-delay: 0.5s;
     animation-duration: 3s;
     animation-timing-function: ease;
 }
 
-section:nth-of-type(1)>div:nth-of-type(1).confirmanimation {
+section>div:nth-of-type(1).confirmanimation {
     animation-name: addedtolistconfirmanimation;
     animation-delay: 0.5s;
     animation-duration: 2.5s;
@@ -310,7 +310,7 @@ section div:nth-of-type(1)>h2, section div:nth-of-type(2)>div>h2 {
     padding-right: 4rem;
 }
 
-section:nth-of-type(1)>div:nth-of-type(1)>h2 {
+section>div:nth-of-type(1)>h2 {
     background-image: url(../images/addedcheck.svg);
     background-repeat: no-repeat;
     background-position: 14rem 2.7rem;
@@ -681,10 +681,12 @@ main.detailpage section>div:last-of-type>div>p, main.detailpage section>div:last
 main.detailpage section>div:last-of-type>div>p:nth-of-type(2) {
     font-family: "Egon Sans Black";
     position: absolute;
-    font-size: 4.5rem;
-    right: 8rem;
+    font-size: 4rem;
+    right: 6.3rem;
     z-index: 20;
-    bottom: 3.5rem;
+    bottom: 3.8rem;
+    width: 6rem;
+    text-align: center;
 }
 
 main.detailpage section>div:last-of-type>div>img {
@@ -872,6 +874,7 @@ main.detailpage section div:nth-of-type(2)>div>div>div>div:nth-of-type(2)>div>h4
     position: absolute;
     bottom: 0;
     padding: 1rem; 
+    width: calc(100% - 2rem);
 }
 
 main.detailpage section>div:nth-of-type(2)>div>a {
@@ -992,7 +995,7 @@ main section.loading::after {
     animation-iteration-count: infinite;
     animation-name: loadinganimation;
     animation-timing-function: ease;
-    background: linear-gradient(to bottom, transparent 0%, #E3E3E3 50%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, #E3E3E3 50%, rgba(255, 0, 0, 0) 100%);
     opacity: .8;
 }
 

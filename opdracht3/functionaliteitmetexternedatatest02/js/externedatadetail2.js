@@ -96,6 +96,7 @@ var sectionRemove = document.querySelector('section>section:last-of-type');
 var dragBar = document.querySelector('section img:nth-of-type(2)');
 var button = document.querySelector("section>div:nth-of-type(2)>button:nth-of-type(1)");
 var closeButton = document.querySelector("section>div:nth-of-type(2)>button:nth-of-type(2)");
+    var addedTitle = document.querySelector('section>div:nth-of-type(1)>h2');
 var removeButton = document.querySelector('section>section:last-of-type button');
 var addedToListNumber = document.querySelector('header nav>img'); 
 
@@ -115,8 +116,8 @@ var listAdd = function () {
     closeButton.style.display = 'block';
 }, 2000);
     
-    document.getElementById("addedremoved").innerHTML = "Added to your list";
-    document.getElementById("addedremoved").style.backgroundImage = "url(images/addedcheck.svg)";
+    addedTitle.innerHTML = "Added to your list";
+    addedTitle.style.backgroundImage = "url(images/addedcheck.svg)";
     
     addedToListNumber.classList.remove('removedfromlistanimation');
     addedToListNumber.classList.add('addedtolistanimation');
@@ -142,8 +143,8 @@ var listRemove = function () {
     closeButton.style.display = 'none';
 }, 2000);
    
-    document.getElementById("addedremoved").innerHTML = "Removed from list";
-    document.getElementById("addedremoved").style.backgroundImage = 'none';
+    addedTitle.innerHTML = "Removed from list";
+    addedTitle.style.backgroundImage = 'none';
     
     addedToListNumber.classList.remove('addedtolistanimation');
     addedToListNumber.classList.add('removedfromlistanimation');

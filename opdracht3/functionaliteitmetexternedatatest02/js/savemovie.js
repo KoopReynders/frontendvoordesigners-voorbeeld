@@ -46,12 +46,12 @@ var listAdd = function () {
 //button.addEventListener('click', listAdd);
 
 for (i = 0; i < button.length; i++) {
-    //console.log(i)
-    //button[i].addEventListener("click", listAdd);
-    console.log("click click", button[i])
-    button[i].addEventListener('click',function(){
-       console.log('we hebben een klik', this) 
-    });
+   
+    button[i].addEventListener("click", listAdd);
+//   
+//    button[i].addEventListener('click',function(){
+//       console.log('we hebben een klik', this) 
+//    });
   }
 
 var listRemove = function () {
