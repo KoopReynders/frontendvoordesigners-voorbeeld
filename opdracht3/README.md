@@ -21,3 +21,9 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 1. Damayanti vindt de tekst moeilijk leestbaar, omdat op sommige pagina's dit wegvalt.
 2. Damayanti vindt de reviews een leuke toevoeging...
+
+# 3e test/ definitieve versie - [functionaliteitmetexternedatatest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest03/)
+
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200"> 
+
+<em>De derde en definitieve versie heeft een focus op de laatste dingen die de UI wat schoner maken aan de hand van de API. Daarnaast hebben de detailpagina's een overlay over de image gekregen, zodat de tekst die er voor staat beter leesbaar is. Iedere pagina kan nu toegevoegd worden aan "mijn lijst" en extra informatie worden bekeken.</em>
