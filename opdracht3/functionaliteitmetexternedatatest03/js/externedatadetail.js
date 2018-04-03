@@ -277,6 +277,7 @@ function showHeroes(jsonObj) {
     
     myButton1.textContent = 'add';
     myImg1.src = heroes.cover;
+    myAnchor1.setAttribute("href", "index" + ".html");
     myImg2.src = 'images/dragbar.svg';
       
       var myDiv3 = document.createElement('div');
@@ -346,7 +347,7 @@ function showHeroes(jsonObj) {
     myH33.textContent = 'Trailers';
     
     var myDiv6 = document.createElement('div');
-    var mySpan1 = document.createElement('span');
+    var mySpan2 = document.createElement('span');
     
     var myPara5 = document.createElement('p');
     
@@ -358,7 +359,7 @@ function showHeroes(jsonObj) {
     myDiv5.appendChild(myH33);
     
     myDiv5.appendChild(myDiv6);
-    myDiv6.appendChild(mySpan1);
+    myDiv6.appendChild(mySpan2);
     
     myDiv5.appendChild(myPara5);
     
