@@ -3,7 +3,7 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 # 1e test - [functionaliteitmetexternedatatest01](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest01/)
 
-<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200"> 
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test09.png" width="200"> 
 
 <em>De eerste versie heeft een focus</em>
 
@@ -13,7 +13,7 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 # 2e test - [functionaliteitmetexternedatatest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest02/)
 
-<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200"> 
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test10.png" width="200"> 
 
 <em>De tweede versie heeft een focus op een duidelijkere UI, hierbij is de loading animatie aangepast aan de hand van de feedback.</em>
 
@@ -24,6 +24,6 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 # 3e test/ definitieve versie - [functionaliteitmetexternedatatest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest03/)
 
-<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test01.png" width="200"> 
+<img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test11.png" width="200"> 
 
 <em>De derde en definitieve versie heeft een focus op de laatste dingen die de UI wat schoner maken aan de hand van de API. Daarnaast hebben de detailpagina's een overlay over de image gekregen, zodat de tekst die er voor staat beter leesbaar is. Iedere pagina kan nu toegevoegd worden aan "mijn lijst" en extra informatie worden bekeken.</em>
