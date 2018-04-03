@@ -31,7 +31,7 @@ request.onload = function () {
         var addedTitle = document.querySelectorAll('section>div:nth-of-type(1)>h2');
         var removeButton = document.querySelectorAll('section>section:last-of-type button');
         var addedToListNumber = document.querySelector('header nav>img');
-//        var b;
+        //        var b;
 
         function listAdd(index) {
             sectionRemove[index].style.display = 'block';
@@ -59,45 +59,45 @@ request.onload = function () {
         }
 
         //        button.addEventListener('click', listAdd);
-        
-//        for (b = 0; b < button.length; b++) {
-//            button[b].addEventListener("click", function () {
-//                listAdd(b);
-//            });
-//        }
-        
+
+        //        for (b = 0; b < button.length; b++) {
+        //            button[b].addEventListener("click", function () {
+        //                listAdd(b);
+        //            });
+        //        }
+
         button[0].addEventListener("click", function () {
-                var index = 0;
-                listAdd(index);
-            });
-        
+            var index = 0;
+            listAdd(index);
+        });
+
         button[1].addEventListener("click", function () {
-                var index = 1;
-                listAdd(index);
-            });
-        
+            var index = 1;
+            listAdd(index);
+        });
+
         button[2].addEventListener("click", function () {
-                var index = 2;
-                listAdd(index);
-            });
-        
+            var index = 2;
+            listAdd(index);
+        });
+
         button[3].addEventListener("click", function () {
-                var index = 3;
-                listAdd(index);
-            });
+            var index = 3;
+            listAdd(index);
+        });
 
         button[4].addEventListener("click", function () {
-                var index = 4;
-                listAdd(index);
-            });
-        
-        button[5].addEventListener("click", function () {
-                var index = 5;
-                listAdd(index);
-            });
-        
+            var index = 4;
+            listAdd(index);
+        });
 
-        function listRemove (index) {
+        button[5].addEventListener("click", function () {
+            var index = 5;
+            listAdd(index);
+        });
+
+
+        function listRemove(index) {
             sectionRemove[index].style.display = 'none';
             sectionBlur[index].classList.toggle('bluranimation');
             sectionConfirm[index].classList.toggle('confirmanimation');
@@ -122,43 +122,43 @@ request.onload = function () {
             console.log("removed from list");
         }
 
-//        removeButton.addEventListener('click', listRemove);
-        
-//        for (b = 0; b < button.length; b++) {
-//            removeButton[b].addEventListener("click", function () {
-//                listRemove();
-//            });
-//        }
-        
+        //        removeButton.addEventListener('click', listRemove);
+
+        //        for (b = 0; b < button.length; b++) {
+        //            removeButton[b].addEventListener("click", function () {
+        //                listRemove();
+        //            });
+        //        }
+
         removeButton[0].addEventListener("click", function () {
-                var index = 0;
-                listRemove(index);
-            });
-        
+            var index = 0;
+            listRemove(index);
+        });
+
         removeButton[1].addEventListener("click", function () {
-                var index = 1;
-                listRemove(index);
-            });
-        
+            var index = 1;
+            listRemove(index);
+        });
+
         removeButton[2].addEventListener("click", function () {
-                var index = 2;
-                listRemove(index);
-            });
-        
+            var index = 2;
+            listRemove(index);
+        });
+
         removeButton[3].addEventListener("click", function () {
-                var index = 3;
-                listRemove(index);
-            });
-        
+            var index = 3;
+            listRemove(index);
+        });
+
         removeButton[4].addEventListener("click", function () {
-                var index = 4;
-                listRemove(index);
-            });
-        
+            var index = 4;
+            listRemove(index);
+        });
+
         removeButton[5].addEventListener("click", function () {
-                var index = 5;
-                listRemove(index);
-            });
+            var index = 5;
+            listRemove(index);
+        });
 
 
         // MORE INFO FUNCTIE
@@ -167,7 +167,7 @@ request.onload = function () {
 
         var touchButton = document.querySelectorAll("section>div:nth-of-type(2)>button:nth-of-type(3)");
 
-        function moreInfo (index) {
+        function moreInfo(index) {
             event.preventDefault();
             sectionMoreInfo[index].style.display = 'block';
             sectionMoreInfo[index].classList.add('extrainfoanimation');
@@ -175,76 +175,76 @@ request.onload = function () {
             console.log("show more info");
         }
 
-//        touchButton.addEventListener('touchstart', moreInfo, false);
-        
-        touchButton[0].addEventListener('touchstart', function () {
-                var index = 0;
-                moreInfo(index);
-            });
-        
-        touchButton[1].addEventListener('touchstart', function () {
-                var index = 1;
-                moreInfo(index);
-            });
-        
-        touchButton[2].addEventListener('touchstart', function () {
-                var index = 2;
-                moreInfo(index);
-            });
-        
-        touchButton[3].addEventListener('touchstart', function () {
-                var index = 3;
-                moreInfo(index);
-            });
-        
-        touchButton[4].addEventListener('touchstart', function () {
-                var index = 4;
-                moreInfo(index);
-            });
-        
-        touchButton[5].addEventListener('touchstart', function () {
-                var index = 5;
-                moreInfo(index);
-            });
+        //        touchButton.addEventListener('touchstart', moreInfo, false);
 
-        function moreInfoRemove (index) {
+        touchButton[0].addEventListener('touchstart', function () {
+            var index = 0;
+            moreInfo(index);
+        });
+
+        touchButton[1].addEventListener('touchstart', function () {
+            var index = 1;
+            moreInfo(index);
+        });
+
+        touchButton[2].addEventListener('touchstart', function () {
+            var index = 2;
+            moreInfo(index);
+        });
+
+        touchButton[3].addEventListener('touchstart', function () {
+            var index = 3;
+            moreInfo(index);
+        });
+
+        touchButton[4].addEventListener('touchstart', function () {
+            var index = 4;
+            moreInfo(index);
+        });
+
+        touchButton[5].addEventListener('touchstart', function () {
+            var index = 5;
+            moreInfo(index);
+        });
+
+        function moreInfoRemove(index) {
             sectionMoreInfo[index].style.display = 'none';
             sectionMoreInfo[index].classList.remove('extrainfoanimation');
             sectionMoreInfoContent[index].classList.remove('extrainfocontentanimation');
             console.log("remove more info");
         }
 
-//        touchButton.addEventListener('touchend', moreInfoRemove, false);
-        
+        //        touchButton.addEventListener('touchend', moreInfoRemove, false);
+
         touchButton[0].addEventListener('touchend', function () {
-                var index = 0;
-                moreInfoRemove(index);
-            });
-        
+            var index = 0;
+            moreInfoRemove(index);
+        });
+
         touchButton[1].addEventListener('touchend', function () {
-                var index = 1;
-                moreInfoRemove(index);
-            });
-        
+            var index = 1;
+            moreInfoRemove(index);
+        });
+
         touchButton[2].addEventListener('touchend', function () {
-                var index = 2;
-                moreInfoRemove(index);
-            });
-        
+            var index = 2;
+            moreInfoRemove(index);
+        });
+
         touchButton[3].addEventListener('touchend', function () {
-                var index = 3;
-                moreInfoRemove(index);
-            });
-        
+            var index = 3;
+            moreInfoRemove(index);
+        });
+
         touchButton[4].addEventListener('touchend', function () {
-                var index = 4;
-                moreInfoRemove(index);
-            });
-        
+            var index = 4;
+            moreInfoRemove(index);
+        });
+
         touchButton[5].addEventListener('touchend', function () {
-                var index = 5;
-                moreInfoRemove(index);
-            });
+            var index = 5;
+            moreInfoRemove(index);
+        });
 
     }, 4000);
 
@@ -307,7 +307,7 @@ function showHeroes(jsonObj) {
         var myImg3 = document.createElement('img');
         var myPara3 = document.createElement('p');
 
-//        myImg3.src = 'images/The-evil-dead-2013-movie-logo.png';
+        //        myImg3.src = 'images/The-evil-dead-2013-movie-logo.png';
         myPara3.textContent = heroes[i].release_date;
 
         var myUl1 = document.createElement('ul');
