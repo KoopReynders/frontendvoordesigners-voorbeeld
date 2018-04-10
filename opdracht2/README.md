@@ -56,4 +56,19 @@ Daarnaast mag de line height bij de storyline iets groter, het voelt nu te krap.
 
 <em>Aan de hand van de gegeven feedback van de eerdere twee tests heb ik punten verwerkt tot een uiteindelijke "definitieve versie" van meerdere interacties op een film detail pagina. </em>
 
+# De Principles of User Interface Design no. 06, 07 en 08 
+
+> No. 06 - One primary action per screen
+
+Zodra de gebruiker naar de detailpagina navigeert zal haar opvallen dat er 1 knop is die een extra nadruk heeft. Dit is de "play" button. Dit is naar mijn idee ook de voornaamste reden dat de gebruiker naar de detailpagina navigeert. Deze knop heeft wat meer padding dan de rest en valt op vanwege haar grote en kleur.
+
+> No. 07 - Keep secondary actions secondary
+
+Vanaf de tweede tests heb ik een secondary action toegevoegd. Dit is een sectie wat meer informatie bevat over de film. Door de tekst iets groter te maken dan de rest, maar minder visuele aandacht te geven dan de "play" button, ontstaat er een secondary action. Hier kan de gebruiker "tabben" tussen verschillende verdiepende informatie over de film als zij er meer over wil weten.
+
+Daarnaast staan er rechtsonder in beeld pijltjes waardoor de gebruiker kan scroll door verschillende images van de film. Deze pijltjes staan rechtsonderin waardoor de gebruiker het ziet als secondary action. Het springt niet uit het beeld en is bedoeld als extra "informatie" over de film. 
+
+> No. 08 - Provide a natural next step
+
+Wanneer de gebruiker een tab aanklikt wat meer verdiepende informatie van de film bevat, zoals de "storyline". Licht deze titel op samen met een underline. De logisch volgende stap is om de "cast" tab aan te klikken en wanneer de gebruiker dit doet zal dit tab oplichten en de underline met een animatie mee bewegen. Dit motiveert de gebruiker om ook de laatste tab aan te klikken, omdat de underline steeds verder en mee gaat.
 
