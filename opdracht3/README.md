@@ -5,28 +5,28 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test09.png" width="200"> 
 
-<em>De eerste versie heeft een focus</em>
+<em>De eerste versie heeft een focus op de gebruiker de feedback te geven dat er data wordt geladen. Dit gaat doormiddel van een load-animatie. Ik heb er voor gekozen om dit in een skeletvorm te doen, omdat de gebruiker dan een indruk geeft hoe het er ongeveer uit gaat zien. Hiernaast wordt de data weergegeven aan de hand van de Movie API. </em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 25 maart
 
-1. Damayanti vindt de loading state tegen de stroom ingaan aangezien sommige movement naar beneden gaan.
+1. Damayanti vindt de loading state tegen de stroom ingaan aangezien sommige animaties naar beneden gaan. Daarnaast vindt ze het skelet een fijne loading state, omdat ze nu ziet hoe het er ongeveer uit gaat zien als het laden af is.
 
 # 2e test - [functionaliteitmetexternedatatest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest02/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test10.png" width="200"> 
 
-<em>De tweede versie heeft een focus op een duidelijkere UI, hierbij is de loading animatie aangepast aan de hand van de feedback.</em>
+<em>De tweede versie heeft een focus op een duidelijkere UI, hierbij is de loading animatie aangepast aan de hand van de feedback. Nu gaat de loading animatie van boven naar beneden, dit heb ik gedaan zodat het op één lijn zit met meerdere animaties op de overzichtspagina. </em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 2 april
 
-1. Damayanti vindt de tekst moeilijk leestbaar, omdat op sommige pagina's dit wegvalt.
-2. Damayanti vindt de reviews een leuke toevoeging...
+1. Damayanti vindt de tekst moeilijk leestbaar op de detailpagina's, omdat op sommige pagina's dit wegvalt. Dit komt waarschijnlijk doordat de achtergrond afbeeldingen (posters) veel tekst bevat. Dit kan storen met de tekst van de UI.
+2. Damayanti vindt de reviews een leuke toevoeging. De paarse kleur klikt erg goed bij haar, omdat zij nu een duidelijke verdeling ziet tussen de verschillende secties. Wat bij de film hoort en los van de film is.
 
 # 3e test/ definitieve versie - [functionaliteitmetexternedatatest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest03/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test11.png" width="200"> 
 
-<em>De derde en definitieve versie heeft een focus op de laatste dingen die de UI wat schoner maken aan de hand van de API. Daarnaast hebben de detailpagina's een overlay over de image gekregen, zodat de tekst die er voor staat beter leesbaar is. Iedere pagina kan nu toegevoegd worden aan "mijn lijst" en extra informatie worden bekeken.</em>
+<em>De derde en definitieve versie heeft een focus op de laatste dingen die de UI wat schoner maken aan de hand van de API. Daarnaast hebben de detailpagina's een overlay over de image gekregen, zodat de tekst die er voor staat beter leesbaar is. Iedere pagina kan nu toegevoegd worden aan "mijn lijst" en extra informatie worden bekeken. Dit was de laatste uitdaging van de UI en interactie, aangezien het eerst alleen bij de eerste film werkte.</em>
 
 # De Principles of User Interface Design no. 04, 09 en 11 
 
