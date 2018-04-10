@@ -11,6 +11,10 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 1. Damayanti vindt de loading state tegen de stroom ingaan aangezien sommige animaties naar beneden gaan. Daarnaast vindt ze het skelet een fijne loading state, omdat ze nu ziet hoe het er ongeveer uit gaat zien als het laden af is.
 
+
+
+
+
 # 2e test - [functionaliteitmetexternedatatest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest02/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test10.png" width="200"> 
