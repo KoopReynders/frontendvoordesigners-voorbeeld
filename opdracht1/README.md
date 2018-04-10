@@ -87,3 +87,14 @@ Door middel van een micro-interactie moet een gebruiker een film kunnen toevoege
 > Touch-event
 Het touch event wordt geactiveerd met de touchstart listener, wat luistert naar het aanraken van dat element. Het touchend event luistert naar het NIET meer aanraken van dat element.
 
+# De Principles of User Interface Design no. 04 & 11
+
+> No. 04 - Keep users in control
+In de verschillende testvarianten heb ik het "film-toevoegen" icoon rechtsboven geplaatst. Hierdoor is er een visuele hierarchie en verwacht de gebruiker ook iets in deze "area" terug te zien. In de verschillende versies wordt de system status terug gegeven als feedback dat de film is toegevoegd. Hierdoor krijgt de gebruiker het gevoel alsof zij in controle is. Daarnaast wordt er weergegeven in de "status/ home bar" dat er een film is toegevoegd in de vorm van een "1".
+
+Als de gebruiker de film wil verwijderen dan had ik in de eerste 4 versies de zelfde opslaan knop gebruikt als verwijder knop. Dit kon zorgen voor verwarring en dat de gebruiker geen overzicht had waar deze verwijderd kon worden. Dit heb ik veranderd door een dragbar animerend in te laten komen waardoor de gebruiker dit opzij kan "draggen" om vervolgens op een verwijder knop te drukken. Hierdoor weet de gebruiker precies waar hij aan toe is.
+
+> No. 11 - Strong visual hierarchies work best
+Door de 
+
+
