@@ -9,17 +9,15 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 
 > Test persoon: Damayanti Blankestijn - Maandag 25 maart
 
-1. Damayanti vindt de loading state tegen de stroom ingaan aangezien sommige animaties naar beneden gaan. Daarnaast vindt ze het skelet een fijne loading state, omdat ze nu ziet hoe het er ongeveer uit gaat zien als het laden af is.
-
-
-
-
+1. Damayanti vindt de loading state tegen de stroom ingaan aangezien sommige animaties naar beneden gaan. 
+2. Daarnaast vindt ze het skelet een fijne loading state, omdat ze nu ziet hoe het er ongeveer uit gaat zien als het laden af is.
+3. Nog niet alle interacties werken bij de films op de overzichtspagina. 
 
 # 2e test - [functionaliteitmetexternedatatest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest02/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test10.png" width="200"> 
 
-<em>De tweede versie heeft een focus op een duidelijkere UI, hierbij is de loading animatie aangepast aan de hand van de feedback. Nu gaat de loading animatie van boven naar beneden, dit heb ik gedaan zodat het op één lijn zit met meerdere animaties op de overzichtspagina. </em>
+<em>De tweede versie heeft een focus op een duidelijkere UI, hierbij is de loading animatie aangepast aan de hand van de feedback. Nu gaat de loading animatie van boven naar beneden, dit heb ik gedaan zodat het op één lijn zit met meerdere animaties op de overzichtspagina. Hiernaast heb ik reviews toegevoegd aan iedere detail pagina, die door middel van een swipe en click interactie gebruikt kan worden.</em>
 
 > Test persoon: Damayanti Blankestijn - Maandag 2 april
 
