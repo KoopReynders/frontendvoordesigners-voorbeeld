@@ -90,11 +90,13 @@ Het touch event wordt geactiveerd met de touchstart listener, wat luistert naar 
 # De Principles of User Interface Design no. 04 & 11
 
 > No. 04 - Keep users in control
+
 In de verschillende testvarianten heb ik het "film-toevoegen" icoon rechtsboven geplaatst. Hierdoor is er een visuele hierarchie en verwacht de gebruiker ook iets in deze "area" terug te zien. In de verschillende versies wordt de system status terug gegeven als feedback dat de film is toegevoegd. Hierdoor krijgt de gebruiker het gevoel alsof zij in controle is. Daarnaast wordt er weergegeven in de "status/ home bar" dat er een film is toegevoegd in de vorm van een "1".
 
 Als de gebruiker de film wil verwijderen dan had ik in de eerste 4 versies de zelfde opslaan knop gebruikt als verwijder knop. Dit kon zorgen voor verwarring en dat de gebruiker geen overzicht had waar deze verwijderd kon worden. Dit heb ik veranderd door een dragbar animerend in te laten komen waardoor de gebruiker dit opzij kan "draggen" om vervolgens op een verwijder knop te drukken. Hierdoor weet de gebruiker precies waar hij aan toe is.
 
 > No. 11 - Strong visual hierarchies work best
+
 Door de afbeeldingen van de films centraal te stellen zijn de gebruikers op de hoogte over welke film het gaat los van de titel. Deze titel staat groot in beeld met daarboven een kleinere titel met de categorie "movie" of "serie". 
 
 Door middel van een icoon in de rechter boven en onder hoek kan de gebruiker interacteren. De icoon rechtsboven laat zien of de film is toegevoegd of niet, dit gebeurd doormiddel van een "plusje" en een "vinkje" die allebei een passende kleur hebben. Dit geeft de gebruiker in een oogopslag een overzicht van haar toegevoegde films. Het ronde icoon rechts onder, moet de gebruiker uitnodigen om ingedrukt te houden, dit rondje is daarom ook niet ingevuld van binnen. Dit maakt de interface ook minder druk en toegankelijker.
