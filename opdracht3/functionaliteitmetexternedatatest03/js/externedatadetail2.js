@@ -6,7 +6,7 @@ var main = document.querySelector('main');
 //var section = document.querySelector('section');
 
 
-var requestURL = 'http://dennistel.nl/movies/2';
+var requestURL = 'https://joopakerboom.github.io/frontendvoordesigners/opdracht3/json/movies2.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
