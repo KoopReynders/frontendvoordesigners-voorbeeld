@@ -6,7 +6,7 @@ var main = document.querySelector('main');
 //var section = document.querySelector('section');
 
 
-var requestURL = 'http://dennistel.nl/movies';
+var requestURL = 'https://joopakerboom.github.io/frontendvoordesigners/opdracht3/json/movies.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -21,7 +21,7 @@ request.onload = function() {
         main.innerHTML = "";
         main.classList.add("mainanimation");
         showHeroes(superHeroes);
-    }, 3000)
+    }, 3000);
     
 };
 
