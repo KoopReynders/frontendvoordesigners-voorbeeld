@@ -6,7 +6,7 @@ var main = document.querySelector('main');
 //var section = document.querySelector('section');
 
 
-var requestURL = 'https://joopakerboom.github.io/frontendvoordesigners/opdracht3/json/movies3.json';
+var requestURL = 'https://koopreynders.github.io/frontendvoordesigners-voorbeeld/opdracht3/json/movies3.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
