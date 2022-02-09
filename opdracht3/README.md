@@ -1,7 +1,7 @@
 # Complexe functionaliteit met externe data
 Er moet een functionaliteit ontworpen worden met externe data. De data is JSON die met een REST API van een externe bron wordt ingeladen met Javascript. Als de data geladen is moeten gebruikers het ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
 
-# 1e test - [functionaliteitmetexternedatatest01](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest01/)
+# 1e test - [functionaliteitmetexternedatatest01](https://koopreynders.github.io/frontendvoordesigners-voorbeeld/opdracht3/functionaliteitmetexternedatatest01/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test09.png" width="200"> 
 
@@ -13,7 +13,7 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 2. Daarnaast vindt ze het skelet een fijne loading state, omdat ze nu ziet hoe het er ongeveer uit gaat zien als het laden af is.
 3. Nog niet alle interacties werken bij de films op de overzichtspagina. 
 
-# 2e test - [functionaliteitmetexternedatatest02](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest02/)
+# 2e test - [functionaliteitmetexternedatatest02](https://koopreynders.github.io/frontendvoordesigners-voorbeeld/opdracht3/functionaliteitmetexternedatatest02/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test10.png" width="200"> 
 
@@ -24,7 +24,7 @@ Er moet een functionaliteit ontworpen worden met externe data. De data is JSON d
 1. Damayanti vindt de tekst moeilijk leestbaar op de detailpagina's, omdat op sommige pagina's dit wegvalt. Dit komt waarschijnlijk doordat de achtergrond afbeeldingen (posters) veel tekst bevat. Dit kan storen met de tekst van de UI.
 2. Damayanti vindt de reviews een leuke toevoeging. De paarse kleur klikt erg goed bij haar, omdat zij nu een duidelijke verdeling ziet tussen de verschillende secties. Wat bij de film hoort en los van de film is.
 
-# 3e test/ definitieve versie - [functionaliteitmetexternedatatest03](https://joopakerboom.github.io/frontendvoordesigners/opdracht3/functionaliteitmetexternedatatest03/)
+# 3e test/ definitieve versie - [functionaliteitmetexternedatatest03](https://koopreynders.github.io/frontendvoordesigners-voorbeeld/opdracht3/functionaliteitmetexternedatatest03/)
 
 <img align="right" src="https://oege.ie.hva.nl/~akerboj001/githubimages/test11.png" width="200"> 
 
