@@ -940,7 +940,7 @@ main section.loading>div:nth-of-type(1) {
     height: auto;
     display: block;
     padding-left: 1.5rem;
-    width: 31vh;
+    width: 20rem;
 }
 
 main section.loading div:nth-of-type(1)>div:nth-of-type(1) {

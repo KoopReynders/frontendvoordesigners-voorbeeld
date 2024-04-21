@@ -207,7 +207,7 @@ main>section {
 /*    overflow: hidden;*/
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 18.5em;
+    height: 31vh;
 }
 
 main>section::after {
