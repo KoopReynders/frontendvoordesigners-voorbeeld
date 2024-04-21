@@ -207,7 +207,7 @@ main>section {
 /*    overflow: hidden;*/
     overflow-y: hidden;
     overflow-x: scroll;
-    height: 31vh;
+    height: 21em;
 }
 
 main>section::after {
@@ -385,6 +385,9 @@ section>div:nth-of-type(2)>button:nth-of-type(3), main.yourwatchlist section>div
 
 button:focus {
     outline:0;
+}
+button:hover {
+    cursor: pointer;
 }
 
 section>section:last-of-type {
@@ -937,9 +940,15 @@ main.detailpage section>section:last-of-type button, main.yourwatchlist section>
     }
 }
 
+main section{
+    /* background-color: pink; */
+    border-bottom: white solid 2px;
+}
+
 main section.loading {
     background-color: #E3E3E3;
 }
+
 
 main section.loading>h1 {
     display: none;
@@ -955,19 +964,29 @@ main section.loading>div:nth-of-type(1) {
 }
 
 main section.loading div:nth-of-type(1)>div:nth-of-type(1) {
-    height: 1rem;
-    width: 12rem; 
+    height: 1.1rem;
+    width: 4rem; 
     background-color: white;
 }
 
 main section.loading div:nth-of-type(1)>div:nth-of-type(2) {
-    height: 2rem;
-    width: 15rem; 
+    height: 2.4rem;
+    width: 20rem; 
     margin-top: 0.5rem;
     background-color: white;
 }
 
-main section.loading>button {
+main section.loading>button:first-of-type {
+    background-color: white;
+    /* border-radius: 1rem; */
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+main section.loading>button:last-of-type {
     background-color: white;
     border-radius: 1rem;
     width: 2rem;
@@ -985,6 +1004,7 @@ main section.loading>button:nth-of-type(2){
 
 main section.loading>div:last-of-type {
     height: 1.5rem;
+    height: 0;
     margin: 0;
     background: none;
     position: absolute;
@@ -999,7 +1019,7 @@ main section.loading::after {
     margin-left: 0rem;
     background: none;
     z-index: 40;
-    height: 15rem;
+    height: 18rem;
     position: absolute;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -1007,7 +1027,7 @@ main section.loading::after {
     animation-name: loadinganimation;
     animation-timing-function: ease;
     background: linear-gradient(to bottom, rgba(227, 227, 227, 0) 0%, #E3E3E3 50%, rgba(227, 227, 227, 0) 100%);
-    opacity: .8;
+    opacity: .9;
 }
 
 @keyframes mainanimation{
